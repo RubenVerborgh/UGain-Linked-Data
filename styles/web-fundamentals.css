@@ -258,23 +258,6 @@ input.small {
   margin-bottom: 0;
 }
 
-/* Opinion symbols */
-.opinion:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 1.3em;
-  margin-left: -1.5em;
-  background: url(../images/opinion.svg) no-repeat center center / contain;
-}
-h2.opinion:before {
-  width: 1em;
-  margin: .05em 0 0 -1.15em;
-}
-.label.opinion:before {
-  margin: -1em 0 0 -1em;
-}
-
 /* Images */
 figure:not(.cover) img {
   display: block;
