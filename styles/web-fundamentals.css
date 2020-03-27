@@ -170,6 +170,9 @@ footer p.license img {
   max-height: 420px;
   overflow: scroll;
 }
+.prefix {
+  opacity: .5;
+}
 
 .element {
   cursor: pointer;
@@ -316,9 +319,8 @@ iframe.query-client, iframe.website {
 .slide h2 + figure.cover.margin > :first-child {
   margin-top: 2em;
 }
-.slide h2 + figure.cover.height.margin > :first-child,
-.slide ul + figure.cover.height.margin > :first-child {
-  height: 75%;
+.slide h2 + figure.cover.height.margin > :first-child {
+  height: 66%;
 }
 .slide.cover h2 {
   text-shadow: -1.5px -1.5px 0 white,
